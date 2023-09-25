@@ -13,7 +13,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 10rem;
+    width: 15rem;
     top: 2rem;
     right: 1rem;
     @media only screen and (max-width: 768px){
@@ -26,7 +26,12 @@ const MenuItem = styled.div`
     cursor: pointer;
     a {
         text-decoration: none;
-        color: gray;
+        color: #C1BFBB;
+        font-size: 20px;
+        font-family: DM Serif Text;
+        font-weight: 400;
+        letter-spacing: 1px;
+        word-wrap: break-word;
         img {
             filter: invert(50%);
         }

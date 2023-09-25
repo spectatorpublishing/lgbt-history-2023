@@ -22,7 +22,6 @@ const Illustration = styled.div`
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    opacity: 0.7;
     padding-top: 5rem;
 
     @media only screen and (max-width: 768px){
@@ -33,6 +32,7 @@ const Illustration = styled.div`
         object-fit: contain;
         height: 100%;
         width: 100%;
+        opacity: 0.7;
     }
 `;
 
@@ -70,9 +70,9 @@ const Home = ({ }) => {
 
     return (
         <HomeContainer>
+            <Illustration><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z4BWW6HGSZAYDJXUYI4FYWCDJU.png"}></img></Illustration>
             <NavBar handleClick={handleClick} />
             <MobileNavBar handleClick={handleClick} />
-            <Illustration><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z4BWW6HGSZAYDJXUYI4FYWCDJU.png"}></img></Illustration>
             <IllustrationMobile><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/S4PRGHGDZ5GTTKQVUWKFMIQBSY.png"}></img></IllustrationMobile>
             <LetterEditor />
             <div ref={rainbowRef}>

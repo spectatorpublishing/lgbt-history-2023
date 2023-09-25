@@ -27,6 +27,8 @@ const Title = styled.div`
     font-size: 40px; 
     font-family: 'DM Serif Text';
     font-weight: 400;
+    padding-bottom: 19px;
+    word-wrap: break-word;
     @media only screen and (max-width: 768px){
         font-size: 18px;
     }
@@ -34,35 +36,55 @@ const Title = styled.div`
 
 const Bar = styled.div`
     align-items: center;
-    background-color: black;
 `;
 
 const Body = styled.div`
-    font-size: 1.25rem;
+    padding-left: 194px;
+    color: #C1BFBB;
+    font-size: 18px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    line-height: 30.71px;
+    word-wrap: break-word;
     margin-bottom: 1.5rem;
     @media only screen and (max-width: 768px){
-        font-size: 1rem;
+        font-size: 12px;
+        padding-left: 13px;
     }
 `;
 
 const Editor = styled.div`
+    padding-left: 194px;
+    color: #C1BFBB;
     margin-top: 1.25rem;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 18px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    line-height: 30.71px;
+    word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 1rem;
+        font-size: 12px;
+        padding-left: 13px;
     }
 `;
 
 const Position = styled.div`
-    font-size: 1.25rem;
+    padding-left: 194px;
+    color: #C1BFBB;
+    font-size: 18px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    line-height: 30.71px;
+    word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 1rem;
+        font-size: 12px;
+        padding-left: 13px;
     }
 `;
 
 const Container = styled.div`
-    background-color: white;
+    background-color: black;
     font-family: Josefin Sans;
     color: rgba(0, 117, 255, 0.8);
     @media only screen and (max-width: 768px){
@@ -102,6 +124,10 @@ const LetterEditor = ({ }) => {
             <Border>
                 <Container>
                     <Bar><Title> Letter from the Editor </Title></Bar>
+                    <Body>{p2}</Body>
+                    <Body>{p3}</Body>
+                    <Body>{p4}</Body>
+                    <Body>{p5}</Body>
                 </Container>
             </Border>
         </Wrapper>

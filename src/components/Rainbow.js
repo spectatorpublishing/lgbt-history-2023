@@ -5,6 +5,8 @@ import theme from '../theme';
 import Article from './Article';
 import { stripes } from '../data/sections';
 
+
+
 const VerticalTitle = styled.div`
     font-size: 3rem;
     font-weight: bold;
@@ -76,7 +78,7 @@ const Column = styled.div`
     top: ${props => props.sticky ? '0' : 'null'};
     right: ${props => props.sticky ? '0' : 'null'};
     @media only screen and (max-width: 768px){
-        height: 5rem;
+        height: 100%;
     }
 `
 
