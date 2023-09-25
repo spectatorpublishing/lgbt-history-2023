@@ -50,7 +50,7 @@ const Container = styled.div`
 
 const Flag = styled.div`
     background-clip: content-box;
-    margin: 0 8rem;
+    margin: 0 115px;
     flex-direction: row;
     justify-content: space-between;
     display: flex;
@@ -72,6 +72,7 @@ const Flag = styled.div`
 const Modal = styled.div`
     display: flex;
     flex-grow: 1;
+    padding: 14px;
     width: ${props => props.open ? '100%' : 'auto'};
 `;
 
