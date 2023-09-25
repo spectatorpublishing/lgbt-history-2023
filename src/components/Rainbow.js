@@ -71,9 +71,12 @@ const Flag = styled.div`
 
 const Modal = styled.div`
     display: flex;
-    flex-grow: 1;
-    padding: 14px;
+    flex-grow: 2;
+    padding: ${props => props.open ? '14px 5px' : '14px'};
     width: ${props => props.open ? '100%' : 'auto'};
+    @media only screen and (max-width: 768px){
+        padding: 0px;
+    }
 `;
 
 const Column = styled.div`
@@ -92,6 +95,7 @@ const Column = styled.div`
 const Color = styled.div`
     display: flex;
     flex-direction: row;
+    background: linear-gradient(transparent, black);
     background-color: ${props => props.open ? props.saturated : props.color};
     height: 138rem;
     flex-grow: 1;
@@ -104,6 +108,7 @@ const Color = styled.div`
     padding-top: 3rem;
     cursor: ${props => props.open ? "auto" : "pointer"};
     @media only screen and (max-width: 768px){
+        background: ${props => props.open ? props.saturated : props.color};
         height: auto;
         flex-direction: column;
         padding-top: 0rem;
