@@ -36,9 +36,6 @@ const Title = styled.div`
 const Row = styled.div`
     display: flex;
     flex-direction: row;
-    @media only screen and (max-width: 768px){
-        flex-direction: column;
-    }
 `;
 
 const Column = styled.div`
@@ -46,9 +43,6 @@ const Column = styled.div`
     flex-direction: column;
     width: 33%;
     font-size: 1.25rem;
-    @media only screen and (max-width: 768px){
-        width: 100%;
-    }
 `;
 
 const Section = styled.div`
@@ -64,7 +58,7 @@ const SectionName = styled.div`
     font-size: 25px;
     margin-bottom: 1rem;
     @media only screen and (max-width: 768px){
-        font-size: 1.125rem;
+        font-size: 10px;
     }
 `;
 
@@ -75,7 +69,7 @@ const Name = styled.div`
     font-size: 25px;
     margin-bottom: 0.5rem;
     @media only screen and (max-width: 768px){
-        font-size: 1rem;
+        font-size: 10px;
     }
 `;
 

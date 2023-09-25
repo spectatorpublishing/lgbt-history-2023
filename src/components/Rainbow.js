@@ -8,9 +8,11 @@ import { stripes } from '../data/sections';
 
 
 const VerticalTitle = styled.div`
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
+    color: #E7E4DD;
+    font-size: 40px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    word-wrap: break-word;
     margin: 0 2rem 2rem 2rem;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -27,8 +29,10 @@ const HorizontalTitle = styled.div`
     display: none;
 
     @media only screen and (max-width: 768px) {
-        font-size: 2.5rem;
-        font-weight: bold;
+        color: #E7E4DD;
+        font-size: 40px;
+        font-family: DM Serif Text;
+        font-weight: 400;
         color: white;
         margin: 2rem;
         display: flex;
@@ -48,6 +52,7 @@ const Flag = styled.div`
     background-clip: content-box;
     margin: 0 8rem;
     flex-direction: row;
+    justify-content: space-between;
     display: flex;
     height: 2220px;
     width: 100%;
@@ -59,7 +64,7 @@ const Flag = styled.div`
     }
     @media only screen and (max-width: 768px){
         flex-direction: column;
-        height: fit-content;
+        height: 100%;
         margin: 0;
     }
 `;
@@ -79,6 +84,7 @@ const Column = styled.div`
     right: ${props => props.sticky ? '0' : 'null'};
     @media only screen and (max-width: 768px){
         height: 100%;
+        padding-bottom: 40px;
     }
 `
 
