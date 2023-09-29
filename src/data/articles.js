@@ -36,49 +36,55 @@ export const a_and_e_articles = [
   
   export const city_news_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/09/29/vibrant-legacies-a-walkthrough-of-west-harlems-historic-lgbtq-sites/",
-      "article_title": "Vibrant legacies: A walkthrough of West Harlem’s historic LGBTQ sites",
-      "article_authors": "Claire Hunt",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TM7IROHGK5BJNL5UYQRDC2U7WE.jpg"
+      "article_link": "https://www.columbiaspectator.com/city-news/2023/09/25/proposed-bill-of-rights-for-lgbtq-individuals-and-people-living-with-hiv-in-long-term-care-awaits-hochul-approval/",
+      "article_title": "Proposed bill of rights for LGBTQ individuals and people living with HIV in long-term care awaits Hochul approval",
+      "article_authors": "William Diep",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IPBIHAGE5ZCODLHLLQ3DGFWC5Q.JPG"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/10/05/ali-forney-center-celebrates-20-years-of-serving-homeless-lgbtq-youth/",
-      "article_title": "Ali Forney Center celebrates 20 years of serving homeless LGBTQ+ youth",
-      "article_authors": "Amira McKee",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3ELRCT5E5BDMDL3K7YVZLSTIXU.png"
+      "article_link": "https://www.columbiaspectator.com/city-news/2023/09/27/suite-success-west-harlems-neighborhood-gay-bar/",
+      "article_title": "Suite success: West Harlem’s neighborhood gay bar",
+      "article_authors": "Erica Lee and Isha Banerjee",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/B4ZPWJTRDRDBPAD6OODSBBQBC4.JPG"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/city-news/2023/09/27/shelter-advocates-continue-to-question-no-sleep-directive-months-after-updated-guidance/",
+      "article_title": "Shelter advocates continue to question no-sleep directive months after updated guidance",
+      "article_authors": "Peyton Allen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EEAHJCVNPVDKHBAL2IMIDZZWBY.JPG"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/city-news/2023/09/29/lgbtq-businesses-in-west-harlem-carry-legacy-of-predecessors/",
+      "article_title": "LGBTQ Businesses in West Harlem carry legacy of predecessors",
+      "article_authors": "Isha Banerjee and Erica Lee",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3JLA42A2ZNB3ZAWRLCHXO3KXWQ.jpg"
     }
    ];
   
   export const uni_news_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/10/03/columbia-health-receives-award-for-gender-affirmative-care-training/",
-      "article_title": "Columbia Health receives award for gender-affirmative care training",
-      "article_authors": "Karen Zhang",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DJQYZQTGOZCQNJ3ACIUEM6RQHA.jpg"
+      "article_link": "https://www.columbiaspectator.com/news/2023/09/26/a-strong-voice-gs-alliance-to-host-summit-for-lgbtq-student-groups/",
+      "article_title": "‘A strong voice’: GS Alliance to host summit for LGBTQ student groups",
+      "article_authors": "Sabrina Ticer-Wurr",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SEP5ZYWNPZGBPIINNEN2YTNWME.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/10/02/space-for-students-to-feel-safe-a-history-of-lgbtq-spaces-and-policies-at-columbia/",
-      "article_title": "‘Space for students to feel safe’: A history of LGBTQ spaces and policies at Columbia",
+      "article_link": "https://www.columbiaspectator.com/news/2023/09/25/the-pride-behind-proud-colors/",
+      "article_title": "The pride behind Proud Colors",
       "article_authors": "Amanda Chapa",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HKMDH53L5ZFZ7OO34NN6A2F574.JPG"
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/F5HHGO4VYFB5DOSJ7UYY5VTMMI.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/09/29/boys-butches-and-bros-new-club-creates-community-for-gender-nonconforming-and-queer-students-at-barnard/",
-      "article_title": "Boys, Butches, and Bros: New club creates community for gender-nonconforming and queer students at Barnard",
+      "article_link": "https://www.columbiaspectator.com/news/2023/09/24/jack-halberstam-on-gender-studies-at-columbia-the-issg-and-barbie/",
+      "article_title": "Jack Halberstam on gender studies at Columbia, the ISSG, and ‘Barbie’",
       "article_authors": "Shea Vance",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DXVH7CDA6JBZNKEE7ISA4RIZMY.JPG"
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UY35DFVAQZARTLZFCSWPC7LCZY.jpg"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/news/2022/09/29/george-chauncey-recipient-of-kluge-prize-on-the-importance-of-studying-lgbtq-history/",
-      "article_title": "George Chauncey, recipient of Kluge Prize, on the importance of studying LGBTQ history",
-      "article_authors": "Sarah Huddleston",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RPR6IKUKBNFSVA3R5RNGZ5NL2E.png"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/news/2022/10/03/experts-remain-cautiously-optimistic-stress-stigma-reduction-as-monkeypox-wanes-nationwide/",
-      "article_title": "Experts remain cautiously optimistic, stress stigma reduction as monkeypox wanes nationwide",
-      "article_authors": "Lina Huang and Inica Kotasthane",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KXLZTM6OM5GRXDKHLILAV3BWAU.GIF"
+      "article_link": "https://www.columbiaspectator.com/news/2023/09/20/alyx-bernstein-bcjts-23-on-her-work-to-affirm-trans-people-within-the-jewish-legal-tradition/",
+      "article_title": "Alyx Bernstein, BC/JTS ’23, on her work to affirm trans people within the Jewish legal tradition",
+      "article_authors": "Emily Forgash",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HDFX3VBAZFESHH4VK7F6TAGDLU.jpeg"
     }
   ];
   
@@ -144,10 +150,10 @@ export const a_and_e_articles = [
   
   export const audio_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/podcasts/2022/10/04/the-last-lesbian-locales-in-new-york-city/",
-      "article_title": "The last lesbian locales in New York City",
-      "article_authors": "Natalie Goldberg and Avery Reed",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IKQKBN7LLFFRXM3SK265BLTM6E.png"
+      "article_link": "https://www.columbiaspectator.com/podcasts/2023/09/26/the-last-lesbian-locales-in-new-york-city-part-2-spec-takes-the-bush/",
+      "article_title": "The Last Lesbian Locales in New York City Part 2: Spec takes the Bush",
+      "article_authors": "Natalie Goldberg and Eva Scholz-Carlson",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RWOVN75DFVFV7K3ZEFR3XEV5NI.png"
     }
    ];
   

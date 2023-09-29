@@ -57,8 +57,10 @@ const MenuItem = styled.div`
     padding: 0.5rem 1rem;
     a {
         text-decoration: none;
-        color: #909095;
-        font-weight: 700;
+        color: #C1BFBB;
+        font-size: 20px;
+        font-family: DM Serif Text;
+        font-weight: 400;
         font-size: 1.25rem;
     }
 `;

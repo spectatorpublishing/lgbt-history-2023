@@ -93,17 +93,16 @@ const LetterEditor = ({ }) => {
                         <Column>
                             <Section>
                                 <SectionName>Corporate Board</SectionName>
-                                <Name>Clara Ence Morse, Editor-in-Chief</Name>
-                                <Name>Dia Gill, Managing Editor</Name>
-                                <Name>Vilanna Wang, Publisher</Name>
+                                <Name>Irie Sentner, Editor in Chief</Name>
+                                <Name>Andrew Park, Managing Editor</Name>
+                                <Name>Tyler Shern, Publisher</Name>
                             </Section>
 
                             <Section>
                                 <SectionName>Audio</SectionName>
-                                <Name>Natalie Goldberg, Director of Podcasting and Audio</Name>
-                                <Name>Avery Reed, Deputy Reporter</Name>
-                                <Name>Matthew Schwitzer, Deputy Producer</Name>
-                                <Name>Eva Scholz-Carlson, Deputy Composer</Name>
+                                <Name>Claire Schnatterbeck, Director of Podcasting and Audio</Name>
+                                <Name>Natalie Goldberg, Senior Staff Reporter</Name>
+                                <Name>Eva Scholz-Carlson, Senior Staff Composer</Name>
                             </Section>
                             <Section>
                                 <SectionName>Graphics</SectionName>
@@ -123,17 +122,16 @@ const LetterEditor = ({ }) => {
                             </Section>
                             <Section>
                                 <SectionName>Photo</SectionName>
-                                <Name>Millie Felder, Photo Editor</Name>
-                                <Name>Kate Della Pietra , Deputy Photo Editor</Name>
-                                <Name>Samantha Camacho, Deputy Photo Editor</Name>
-                                <Name>Kat St. Martin, Deputy Photo Editor</Name>
-                                <Name>Annie Son, Deputy Photo Editor</Name>
+                                <Name>Judy Goldstein, Photo Editor</Name>
+                                <Name>Grace Li, Deputy Photo Editor</Name>
+                                <Name>Gabriela Gregor-Splaver, Deputy Photo Editor</Name>
+                                <Name>Pip Tsuki Carlson, Deputy Photo Editor</Name>
                                 <Name>Sydney Lee, Deputy Photo Editor</Name>
-                                <Name>Judy Goldstein, Staff Photographer</Name>
-                                <Name>Ryan Newberger, Staff Photographer</Name>
-                                <Name>Violet Mendelsund, Staff Photographer</Name>
-                                <Name>Selina Yang, Staff Photographer</Name>
-                                <Name>Kathy Fang, Staff Photographer</Name>
+                                <Name>Hannah Yanover, Deputy Photo Editor</Name>
+                                <Name>Salem Maru, Deputy Photographer</Name>
+                                <Name>Laura Mittelman, Deputy Photographer</Name>
+                                <Name>Genevieve Depke, Staff Photographer</Name>
+                                <Name>Isabel Iino, Staff Photographer</Name>
                             </Section>
                             <Section>
                                 <SectionName>Sports</SectionName>
@@ -151,30 +149,21 @@ const LetterEditor = ({ }) => {
                         <Column>
                             <Section>
                                 <SectionName>Engineering</SectionName>
-                                <Name>Laura Castro Venegas, Head of Engineering</Name>
-                                <Name>Yu-Chen Huang, Engineering Manager</Name>
-                                <Name>Katie Chen, Associate Developer</Name>
-                                <Name>Hannah Huang, Associate Developer</Name>
+                                <Name>Steven Wang, Engineering Manager</Name>
                             </Section>
                             <Section>
                                 <SectionName>Product</SectionName>
-                                <Name>Philippe Wu, Head of Product</Name>
-                                <Name>Aaron McKeever, Senior Product Designer</Name>
-                                <Name>Jennifer Chen, Product Designer</Name>
+                                <Name>Muchen Guo, Head of Product</Name>
+                                <Name>Ethan Xu, Product Designer</Name>
                             </Section>
                             <Section>
                                 <SectionName>University News</SectionName>
-                                <Name>Irie Sentner, University News Editor</Name>
-                                <Name>Zachary Schermele, Deputy News Editor</Name>
-                                <Name>Stella Pagkas, Deputy News Editor</Name>
-                                <Name>Isabella Ramírez, Deputy News Editor</Name>
-                                <Name>Esha Karam, Deputy News Editor</Name>
-                                <Name>Karen Zhang, Staff writer</Name>
-                                <Name>Amanda R. Chapa, Staff writer</Name>
-                                <Name>Shea Vance , Staff writer</Name>
-                                <Name>Sarah Huddleston, Staff writer</Name>
-                                <Name>Lina Huang, Staff writer</Name>
-                                <Name>Inica Kotasthane, Summer fellow</Name>
+                                <Name>Isabella Ramírez, University News Editor</Name>
+                                <Name>Esha Karam, University News Editor</Name>
+                                <Name>Amanda Chapa, Deputy News Editor</Name>
+                                <Name>Emily Forgash, Deputy News Editor</Name>
+                                <Name>Sabrina Ticer-Wurr, Deputy News Editor</Name>
+                                <Name>Shea Vance, Deputy News Editor</Name>
                             </Section>
                             <Section>
                                 <SectionName>Opinion</SectionName>
@@ -199,32 +188,40 @@ const LetterEditor = ({ }) => {
                                 <Name>Maya Sulkin, Columbia Daily Spectator</Name>
                             </Section>
                             <Section>
+                                <SectionName>City News</SectionName>
+                                <Name>William Diep, Deputy City News Editor</Name>
+                                <Name>Uriel Lopez, Deputy City News Editor</Name>
+                                <Name>Erica Lee, Deputy City News Editor</Name>
+                                <Name>Isha Banerjee, Deputy City News Editor</Name>
+                                <Name>Rainier Harris, Deputy City News Editor</Name>
+                                <Name>Manuela Silva, Deputy City News Editor</Name>
+                                <Name>Amira McKee, City News Editor</Name>
+                                <Name>Esther Sun, City News Editor</Name>
+                                <Name>Payton Allen, Staff Writer</Name>
+                            </Section>
+                        </Column>
+                        <Column>
+                            <Section>
+                                <SectionName>Cover Illustration</SectionName>
+                                <Name>Gabe de la Cruz, Staff Illustrator</Name>
+                            </Section>
+                            <Section>
+                                <SectionName>Illustrations</SectionName>
+                                <Name>Ji Yoon Sim, Illustrations Editor</Name>
+                                <Name>Olya Sukonrat, Illustrations Deputy Editor</Name>
+                                <Name>Kelsea Petersen, Illustrations Deputy Editor</Name>
+                                <Name>Macy Sinreich, Illustrations Deputy Editor</Name>
+                                <Name>Cassie Wang, Illustrations Deputy Editor</Name>
+                                <Name>Gabe de la Cruz, Staff Illustrator</Name>
+                                <Name>Ruth Weaver, Staff Illustrator</Name>
+                            </Section>
+                            <Section>
                                 <SectionName>Engagement</SectionName>
                                 <Name>Kailin Huang, Engagement Manager</Name>
                                 <Name>Samantha Turk, Engagement Manager</Name>
                                 <Name>El Chu, Engagement Manager</Name>
                                 <Name>Grace Chee, Engagement Analyst</Name>
                             </Section>
-                        </Column>
-                        <Column>
-                            <Section>
-                                <SectionName>Cover Illustration</SectionName>
-                                <Name>Ji Yoon Sim, Deputy Illustrations Editor</Name>
-                                <Name>Mac Jackson, Staff Illustrator</Name>
-                            </Section>
-                            <Section>
-                                <SectionName>Illustrations</SectionName>
-                                <Name>Yingjie Wang, Illustrations Editor</Name>
-                                <Name>Ji Yoon Sim, Deputy Illustrations Editor</Name>
-                                <Name>Julian Michaud, Deputy Illustrations Editor</Name>
-                                <Name>Sadia Sharif, Deputy Illustrations Editor</Name>
-                                <Name>Mac Jackson, Staff Illustrator</Name>
-                                <Name>Katya Reichert, Staff Illustrator</Name>
-                                <Name>Max Graves, Staff Illustrator</Name>
-                                <Name>Olya Sukonrat, Staff Illustrator</Name>
-                            </Section>
-
-
                             <Section>
                                 <SectionName>Copy</SectionName>
                                 <Name>Olivia Vella, Head Copy Editor</Name>

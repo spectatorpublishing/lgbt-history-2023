@@ -39,7 +39,7 @@ const Bar = styled.div`
 `;
 
 const Body = styled.div`
-    padding-left: 194px;
+    padding-left: 160px;
     color: #C1BFBB;
     font-size: 18px;
     font-family: DM Serif Text;
@@ -54,7 +54,7 @@ const Body = styled.div`
 `;
 
 const Editor = styled.div`
-    padding-left: 194px;
+    padding-left: 160px;
     color: #C1BFBB;
     margin-top: 1.25rem;
     font-weight: bold;
@@ -70,7 +70,7 @@ const Editor = styled.div`
 `;
 
 const Position = styled.div`
-    padding-left: 194px;
+    padding-left: 160px;
     color: #C1BFBB;
     font-size: 18px;
     font-family: DM Serif Text;
@@ -95,27 +95,21 @@ const Container = styled.div`
 const p1 = `Dear readers,
 `;
 
-const p2 = `Every year in June, LGBTQ people and allies come together to celebrate Pride Month. In addition to these 
-celebrations, Americans commemorate LGBTQ History Month in October. The month includes both National Coming Out Day 
-and the anniversary of the National March on Washington for Lesbian and Gay Rights, held first in 1979. 
+const p2 = `October is LGBTQ History Month, a time to celebrate queerness in all its forms and the contributions queer 
+people have made to our world. Columbia itself has been the site of much of this history, and this special edition is 
+intended to highlight the ways lesbian, gay, bisexual, transgender, and queer Columbians have played integral roles in 
+shaping our community, both in the past and today. 
 `;
 
-const p3 = `Columbia is a locus of national LBGTQ history. It was the first university in the country to have a gay 
-student organization and is today where Professor George Chauncey—the first-ever scholar of LGBTQ history to win the 
-Kluge Award—teaches. Lesbian, gay, bisexual, transgender, and queer Columbians have played integral roles in shaping 
-our community. In this edition, we have worked to commemorate the lives of queer Columbians and illuminate queer 
-experiences at Columbia today.
+const p3 = `In this edition, we explore how professor Jack Halberstam has transformed the study of gender and sexuality 
+at Columbia. We dive into the difficult decisions trans athletes must make and look into the communities queer and trans 
+student-athletes find within club sports. We take a tour through the businesses in West Harlem supporting the queer 
+community and interrogate the lack of lesbian bars, both in New York City and nationwide. 
 `;
 
-const p4 = `Within this edition, you can hear from Chauncey himself about the importance of studying LGBTQ history. 
-You can read about trans and nonbinary students grappling with what it means to attend a historically women’s college,
-and the club they created to provide support and socialize. And you can read heartfelt perspectives on queer 
-experiences, from interrogating hookup culture to exploring intersectional identity, in our opinion pages.
-`;
-
-const p5 = `We hope you leave this edition with a deeper understanding of the contributions made by queer Columbians
-and community members to our school and beyond.  We are excited to continue our coverage of queer experiences at 
-Columbia and to celebrate queer history, voices, stories, and lives all year round.
+const p4 = `We hope this edition leaves you with a deeper understanding of the contributions of queer Columbians and 
+community members to our school, neighborhood, and beyond. We are excited to celebrate queer history, voices, stories, 
+and lives—this month, and all year round.
 `;
 
 const LetterEditor = ({ }) => {
@@ -124,10 +118,15 @@ const LetterEditor = ({ }) => {
             <Border>
                 <Container>
                     <Bar><Title> Letter from the Editor </Title></Bar>
+                    <Body>{p1}</Body>
                     <Body>{p2}</Body>
                     <Body>{p3}</Body>
                     <Body>{p4}</Body>
-                    <Body>{p5}</Body>
+                    <Body>All the very best,</Body>
+                    <Editor>Irie Sentner</Editor>
+                    <Position>Editor in Chief</Position>
+                    <Editor>Andrew Park</Editor>
+                    <Position>Managing Editor</Position>
                 </Container>
             </Border>
         </Wrapper>
