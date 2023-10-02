@@ -23,14 +23,14 @@ const Illustration = styled.div`
     align-items: center;
     object-fit: contain;
     padding-top: 5rem;
-
+    padding-right: 70px;
     @media only screen and (max-width: 768px){
         display: none;
     }
 
     img {
         object-fit: contain;
-        height: 100%;
+        height: 95%;
         width: 100%;
     }
 `;
@@ -67,8 +67,8 @@ const Home = ({ }) => {
 
     return (
         <HomeContainer>
-            <Illustration><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZPAXPX6KOVCT7MCETZW4UXG7UE.png"}></img></Illustration>
             <NavBar handleClick={handleClick} />
+            <Illustration><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZPAXPX6KOVCT7MCETZW4UXG7UE.png"}></img></Illustration>
             <MobileNavBar handleClick={handleClick} />
             <IllustrationMobile><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IMVGS2USGVGUHAINKQOET6H6SE.png"}></img></IllustrationMobile>
             <LetterEditor />

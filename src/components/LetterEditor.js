@@ -30,7 +30,7 @@ const Title = styled.div`
     padding-bottom: 19px;
     word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 `;
 
