@@ -140,6 +140,7 @@ const LetterEditor = ({ }) => {
                             <Section>
                                 <SectionName>Engineering</SectionName>
                                 <Name>Steven Wang, Engineering Manager</Name>
+                                <Name>Marian Abuhazi, Engineering Manager</Name>
                             </Section>
                             <Section>
                                 <SectionName>Product</SectionName>
