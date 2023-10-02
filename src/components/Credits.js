@@ -17,7 +17,7 @@ const Border = styled.div`
     padding: 5rem 8rem 5rem 8rem;
     @media only screen and (max-width: 768px){
         padding: 2rem;
-        border-width: 0.5rem;
+        border-width: 2px;
     }
 `;
 
@@ -97,28 +97,18 @@ const LetterEditor = ({ }) => {
                                 <Name>Andrew Park, Managing Editor</Name>
                                 <Name>Tyler Shern, Publisher</Name>
                             </Section>
-
                             <Section>
-                                <SectionName>Audio</SectionName>
-                                <Name>Claire Schnatterbeck, Director of Podcasting and Audio</Name>
-                                <Name>Natalie Goldberg, Senior Staff Reporter</Name>
-                                <Name>Eva Scholz-Carlson, Senior Staff Composer</Name>
+                                <SectionName>Engagement</SectionName>
+                                <Name>Jeannette Kim, Head of Engagement</Name>
+                                <Name>Isaiah Colmenero, Engagement Manager</Name>
+                                <Name>Sani Manomaiphibul, Engagement Manager</Name>
+                                <Name>Shinjini Mukherjee, Engagement Manager</Name>
                             </Section>
                             <Section>
                                 <SectionName>Graphics</SectionName>
-                                <Name>Andrew Park, Graphics Editor</Name>
-                                <Name>Adina Cazacu-De Luca, Deputy Graphics Editor</Name>
-                                <Name>Devon Campbell, Deputy Graphics Editor</Name>
-                                <Name>Mehr Kaur, Deputy Graphics Editor</Name>
-                                <Name>Laya Gollamudi, Deputy Graphics Editor</Name>
                             </Section>
                             <Section>
-                                <SectionName>Arts and Entertainment</SectionName>
-                                <Name>Bella Druckman, Arts & Entertainment Editor</Name>
-                                <Name>Fernanda Aguero, Deputy A&E Editor</Name>
-                                <Name>Katie Levine, Deputy A&E Editor</Name>
-                                <Name>Irene Madrigal, Deputy A&E Editor</Name>
-                                <Name>Vincent Hou, Deputy A&E Editor</Name>
+                                <SectionName>Arts and Culture</SectionName>
                             </Section>
                             <Section>
                                 <SectionName>Photo</SectionName>
@@ -135,13 +125,13 @@ const LetterEditor = ({ }) => {
                             </Section>
                             <Section>
                                 <SectionName>Sports</SectionName>
-                                <Name>Miles Schachner, Sports Editor</Name>
-                                <Name>Rebecca Wachen , Deputy Sports Editor </Name>
-                                <Name>Robert Gao, Deputy Sports Editor </Name>
-                                <Name>Jorge Hernandez, Deputy Sports Editor </Name>
-                                <Name>Takashi Williams , Staff Writer </Name>
-                                <Name>Julian Silva-Forbes, Staff Writer </Name>
+                                <Name>Jorge Hernandez, Sports Editor</Name>
+                                <Name>Heather Chen , Deputy Sports Editor </Name>
+                                <Name>Takashi Williams, Deputy Sports Editor </Name>
+                                <Name>Brian Lee, Deputy Sports Editor </Name>
                                 <Name>Sydney Stoller, Staff Writer </Name>
+                                <Name>Julian Silva-Forbes, Staff Writer </Name>
+                                <Name>Alejandra García Corominas, Staff Writer </Name>
                             </Section>
 
 
@@ -167,25 +157,8 @@ const LetterEditor = ({ }) => {
                             </Section>
                             <Section>
                                 <SectionName>Opinion</SectionName>
-                                <Name>Senem Yurdakul, Editorial Page Editor</Name>
-                                <Name>Milène Klein, Deputy Editorial Page Editor</Name>
-                                <Name>Sydney Goldson, Deputy Editorial Page Editor</Name>
-                                <Name>Colin Roedl, Senior Associate Editorial Page Editor</Name>
-                            </Section>
-                            <Section>
-                                <SectionName>Spectrum</SectionName>
-                                <Name>Ariana Novo, Spectrum Editor</Name>
-                                <Name>Emma Cho, Deputy Spectrum Editor</Name>
-                                <Name>Haley Long, Deputy Spectrum Editor</Name>
-                                <Name>Aliza Rabinovitz, Deputy Spectrum Editor</Name>
-                                <Name>Swethaa Suresh, Deputy Spectrum Editor</Name>
-                                <Name>Kylie Gall, Staff Writer</Name>
-                                <Name>Caroline Somers, Staff Writer</Name>
-                                <Name>Madeline Suindah, Staff Writer</Name>
-                                <Name>Ruby Zeidman, Staff Writer</Name>
-                                <Name>Nirutti Charupaisankit, Columbia Daily Spectator</Name>
-                                <Name>Haleigh Stewart, Columbia Daily Spectator</Name>
-                                <Name>Maya Sulkin, Columbia Daily Spectator</Name>
+                                <Name>Milène Klein, Editorial Page Editor</Name>
+                                <Name>Achilles Frangos, Senior Associate Editor</Name>
                             </Section>
                             <Section>
                                 <SectionName>City News</SectionName>
@@ -199,8 +172,6 @@ const LetterEditor = ({ }) => {
                                 <Name>Esther Sun, City News Editor</Name>
                                 <Name>Payton Allen, Staff Writer</Name>
                             </Section>
-                        </Column>
-                        <Column>
                             <Section>
                                 <SectionName>Cover Illustration</SectionName>
                                 <Name>Gabe de la Cruz, Staff Illustrator</Name>
@@ -215,45 +186,49 @@ const LetterEditor = ({ }) => {
                                 <Name>Gabe de la Cruz, Staff Illustrator</Name>
                                 <Name>Ruth Weaver, Staff Illustrator</Name>
                             </Section>
+                        </Column>
+                        <Column>
                             <Section>
-                                <SectionName>Engagement</SectionName>
-                                <Name>Kailin Huang, Engagement Manager</Name>
-                                <Name>Samantha Turk, Engagement Manager</Name>
-                                <Name>El Chu, Engagement Manager</Name>
-                                <Name>Grace Chee, Engagement Analyst</Name>
+                                <SectionName>Audio</SectionName>
+                                <Name>Claire Schnatterbeck, Director of Podcasting and Audio</Name>
+                                <Name>Natalie Goldberg, Senior Staff Reporter</Name>
+                                <Name>Eva Scholz-Carlson, Senior Staff Composer</Name>
                             </Section>
                             <Section>
                                 <SectionName>Copy</SectionName>
-                                <Name>Olivia Vella, Head Copy Editor</Name>
-                                <Name>Kaylene Su Yee Chong, Deputy Copy Editor</Name>
+                                <Name>Ronit Dhulia, Head Copy Editor</Name>
+                                <Name>Ainhoa Petri-Hidalgo, Deputy Copy Editor</Name>
+                                <Name>August Phillips, Deputy Copy Editor</Name>
+                                <Name>Lanah Wyne, Deputy Copy Editor</Name>
+                                <Name>Maria Levit , Deputy Copy Editor</Name>
                                 <Name>Renuka Balakrishnan, Deputy Copy Editor</Name>
-                                <Name>Katherine Carraway, Deputy Copy Editor</Name>
-                                <Name>Ronit Dhulia , Deputy Copy Editor</Name>
-                                <Name>Maria Levit, Deputy Copy Editor</Name>
-                                <Name>Emma Grungold, Associate Copy Editor</Name>
-                                <Name>Safia Aladlouni , Associate Copy Editor</Name>
-                                <Name>Sadie Rochman , Associate Copy Editor</Name>
-                                <Name>Yvin Shin , Associate Copy Editor</Name>
-                                <Name>Abby Sim , Associate Copy Editor</Name>
-                                <Name>Natarsha Yan , Associate Copy Editor</Name>
-                                <Name>Fritzie Schwentker, Associate Copy Editor</Name>
-                                <Name>Lanah Wyne , Associate Copy Editor</Name>
-                                <Name>Grace O'Malley , Associate Copy Editor</Name>
+                                <Name>Sadie Rochman, Deputy Copy Editor</Name>
+                                <Name>Yvin Shin, Deputy Copy Editor</Name>
+                                <Name>Emma Moralez, Associate Copy Editor</Name>
+                                <Name>Kaela Aalto, Associate Copy Editor</Name>
+                                <Name>Natalie DiFusco, Associate Copy Editor</Name>
+                                <Name>Neena Dzur, Associate Copy Editor</Name>
+                                <Name>Pun Setpattanachai, Associate Copy Editor</Name>
                                 <Name>Reena Bromberg Gaber, Associate Copy Editor</Name>
-                                <Name>Kaela Aalto, Preslotter</Name>
-                                <Name>Rose Leveen, Preslotter</Name>
-                                <Name>August Phillips, Preslotter</Name>
-                                <Name>Emily Stone, Preslotter</Name>
-                                <Name>Neena Dzur, Preslotter</Name>
-                                <Name>Natalie DiFusco, Preslotter</Name>
-                                <Name>Sophia Lee, Preslotter</Name>
-                                <Name>Jenny Wang, Preslotter</Name>
-                                <Name>Emma Moralez, Preslotter</Name>
-                                <Name>Pun Setpattanachai, Preslotter</Name>
+                                <Name>Rose Leveen, Associate Copy Editor</Name>
+                                <Name>Sally Kaye, Associate Copy Editor</Name>
+                                <Name>Sophia Lee, Associate Copy Editor</Name>
+                                <Name>Daniel Knorek, Preslotter</Name>
+                                <Name>Driscoll Callan, Preslotter</Name>
+                                <Name>Ella Ahner, Preslotter</Name>
+                                <Name>Nola Gallo, Preslotter</Name>
                                 <Name>Posey Chiddix, Preslotter</Name>
-                                <Name>Ainhoa Petri-Hidalgo, Preslotter</Name>
-                                <Name>Lizzy Yee, Preslotter</Name>
-                                <Name>Sally Kaye, Preslotter</Name>
+                                <Name>Reese Ransweiler, Preslotter</Name>
+                                <Name>Vaishnavi Sirkay, Preslotter</Name>
+                                <Name>Campbell Beaver, Trainee</Name>
+                                <Name>Cinly Mo, Trainee</Name>
+                                <Name>Claudia Kim, Trainee</Name>
+                                <Name>Diego Carvajal Núñez, Trainee</Name>
+                                <Name>Eli Trokenheim, Trainee</Name>
+                                <Name>Emily Spencer, Trainee</Name>
+                                <Name>Eric Aguilar, Trainee</Name>
+                                <Name>Lily Lee, Trainee</Name>
+                                <Name>Mia Feizbakhsh, Trainee</Name>
                             </Section>
                         </Column>
                     </Row>

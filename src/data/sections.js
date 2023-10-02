@@ -6,21 +6,17 @@ import {
     uni_news_articles,
     city_news_articles,
     audio_articles,
-    spectrum_articles
   } from "../data/articles";
 
 export const sections = [
     {
-        title: "A&E",
+        title: "A&C",
     },
     {
         title: "SPORTS",
     },
     {
         title: "UNI NEWS",
-    },
-    {
-        title: "SPECTRUM",
     },
     {
         title: "OPINION",
@@ -36,7 +32,7 @@ export const sections = [
 export const stripes = [
     {
         "index": 1,
-        "title": "A&E",
+        "title": "A&C",
         "color": theme.colors.lightRed,
         "saturated": theme.colors.saturatedRed,
         "articles": a_and_e_articles,
@@ -57,30 +53,23 @@ export const stripes = [
     },
     {
         "index": 4,
-        "title": "Spectrum",
+        "title": "Opinion",
         "color": theme.colors.lightGreen,
         "saturated": theme.colors.saturatedGreen,
-        "articles": spectrum_articles,
-    },
-    {
-        "index": 5,
-        "title": "Opinion",
-        "color": theme.colors.lightBlue,
-        "saturated": theme.colors.saturatedBlue,
         "articles": opinion_articles,
     },
     {
-        "index": 6,
+        "index": 5,
         "title": "City News",
-        "color": theme.colors.lightIndigo,
-        "saturated": theme.colors.saturatedIndigo,
+        "color": theme.colors.lightBlue,
+        "saturated": theme.colors.saturatedBlue,
         "articles": city_news_articles,
     },
     {
-        "index": 7,
+        "index": 6,
         "title": "Audio",
-        "color": theme.colors.lightPurple,
-        "saturated": theme.colors.saturatedPurple,
+        "color": theme.colors.lightIndigo,
+        "saturated": theme.colors.saturatedIndigo,
         "articles": audio_articles,
     },
 ];

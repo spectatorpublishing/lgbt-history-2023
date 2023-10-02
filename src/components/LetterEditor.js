@@ -17,7 +17,7 @@ const Border = styled.div`
     padding: 2rem 3.5rem 2rem 3.5rem;
     @media only screen and (max-width: 768px){
         padding: 2rem;
-        border-width: 0.5rem;
+        border-width: 2px;
     }
 `;
 

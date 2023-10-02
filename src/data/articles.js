@@ -1,36 +1,30 @@
 export const a_and_e_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/arts-and-entertainment/2022/09/29/author-mayukh-sen-restores-honor-to-immigrant-born-cuisine-in-his-debut-book/",
-      "article_title": "Author Mayukh Sen restores honor to immigrant-born cuisine in his debut book",
-      "article_authors": " William Gee",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WIYYPVGXYFFFLHGREYYTBCGXH4.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/arts-and-entertainment/2022/09/29/new-uses-old-words-how-black-lgbtq-culture-influences-modern-internet-slang/",
-      "article_title": "New uses, old words: how Black LGBTQ culture influences modern internet slang",
-      "article_authors": " Emily Chen, Monica Manmadkar",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WZ62JN3NZJAQNNOJN5X2WPQS6Q.jpg"
+      "article_link": "https://www.columbiaspectator.com/arts-and-culture/2023/09/24/transmedia-artist-mx-oops-brings-ecstatic-disobedience-to-barnard-dance-department/",
+      "article_title": "Transmedia artist MX Oops brings ‘ecstatic disobedience’ to Barnard dance department",
+      "article_authors": "Lucy Kudlinski and Joyce Zhang",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AIMZKUQ4UJAJPFA6Y6LWTKISU4.jpg"
     }
   ];
   
   export const sports_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2022/10/03/ivy-league-athletics-lead-the-nation-in-lgbtq-inclusion-meet-the-athletes-and-coaches-leading-the-way/",
-      "article_title": "Ivy League athletics lead the nation in LGBTQ inclusion. Meet the athletes and coaches leading the way.",
-      "article_authors": "Rebecca Wachen",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JJQCYE55ANHWVKZ4OLBSEBITPU.JPG"
+      "article_link": "https://www.columbiaspectator.com/sports/2023/09/27/this-is-really-my-community-as-trans-athletes-grapple-with-difficult-decisions-womens-rugby-offers-a-safe-space/",
+      "article_title": "‘This is really my community’: As trans athletes grapple with difficult decisions, women’s rugby offers a safe space",
+      "article_authors": "Jorge Hernandez",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/STEC3JYAGJA7VDEJYMHON4Z6YU.png"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2022/10/03/former-wrestling-coach-hudson-taylors-journey-of-activism-as-a-straight-ally-in-the-world-of-wrestling/",
-      "article_title": "Former wrestling coach Hudson Taylor’s journey of activism as a straight ally in the world of wrestling",
-      "article_authors": "Takashi Williams",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3L75VJYTW5DB5MV2WZTSWK3EC4.jpg"
+      "article_link": "https://www.columbiaspectator.com/sports/2023/09/25/columbias-women-and-gender-diverse-ultimate-frisbee-teams-offer-space-for-community/",
+      "article_title": "Columbia’s women and gender diverse ultimate frisbee teams offer space for community",
+      "article_authors": "Alejandra García Corominas",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AVGQM5S5DJGH5GCHO7FZYFWTU4.png"
     },
     {
-      "article_link": "https://www.columbiaspectator.com/sports/2022/09/26/womens-soccer-shuts-out-cornell-to-open-ivy-season-on-pride-night/",
-      "article_title": "Women’s soccer shuts out Cornell to open Ivy season on pride night",
-      "article_authors": "Julian Silva-Forbes and Sydney Stoller",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4YG6CWT5TFALNP6MO2VMX55NRM.jpg"
+      "article_link": "https://www.columbiaspectator.com/sports/2023/09/26/i-was-on-a-mission-sam-marchiano-cc-89-on-sports-journalism-and-lgbtq-acceptance-in-athletics/",
+      "article_title": "‘I was on a mission’: Sam Marchiano, CC ’89, on sports journalism and LGBTQ acceptance in athletics",
+      "article_authors": "Heather Chen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RI6UI3L4TRAJHFJX4GQMJYC27Y.JPG"
     }
   ];
   
@@ -90,63 +84,13 @@ export const a_and_e_articles = [
   
   export const opinion_articles = [
     {
-      "article_link": "https://www.columbiaspectator.com/opinion/2022/10/05/healing-from-hypersexualization-finding-queer-community-at-columbia/",
-      "article_title": "Healing from hypersexualization: Finding queer community at Columbia",
-      "article_authors": " Avian Muñoz",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7H2ODXK75FAYZN7PMN7NMILEEA.png"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2022/10/04/to-sylvia-rivera-marsha-p-johnson-and-the-q-house-with-love/",
-      "article_title": "To Sylvia Rivera, Marsha P. Johnson, and the Q House, with love",
-      "article_authors": "Carlos Castilla",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/G4DK2SDVBFABDOXMOXQMGJQIYE.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2022/10/05/columbias-history-with-queer-liberation-is-long-and-nowhere-near-over/",
-      "article_title": "Columbia’s history with queer liberation is long and nowhere near over",
-      "article_authors": "Lucas Pasquina",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JDXZMIBAHJFP5PKOISIOFXNOLM.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2022/10/05/lets-make-sports-journalism-gay-and-girly/",
-      "article_title": "Let's make sports journalism gay and girly\n",
-      "article_authors": "Jorge Hernandez",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3AXWBWZI3VFPNPSN4NHLWHSFEI.png"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/opinion/2022/10/05/for-us-international-students-queer-hope-looks-different/",
-      "article_title": "For us international students, queer hope looks different",
-      "article_authors": "Armaan Bamzai",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MXLC5T7R4FGSXDU4IWBSAQOTLM.jpg"
+      "article_link": "https://www.columbiaspectator.com/opinion/2023/09/27/queer-liberation-not-rainbow-capitalism/",
+      "article_title": "Queer liberation, not rainbow capitalism",
+      "article_authors": "Achilles Frangos",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WFQKQH3BSRD67GQCOWKNWUJR5Y.jpg"
     }
    ];
   
-  export const spectrum_articles = [
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/10/03/lgbtq-clubs-on-campus/",
-      "article_title": "LGBTQ clubs on campus",
-      "article_authors": "Madeline Suindah and Anuthmi Waas",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RECJFBLW2RESZH233UP43QQAI4.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/10/03/course-recommendations-lgbtq-history-and-experiences/",
-      "article_title": "Course recommendations: LGBTQ history and experiences",
-      "article_authors": "Danielle Elzweig, Ariana Novo, Rose O'Brien, and Madeline Suindah",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JT6AW7ZRTNAXDMX67MJKTO3IHI.jpg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/10/03/vibe-with-spectrum-music-by-lgbtq-artists/",
-      "article_title": "Vibe with Spectrum: Music by LGBTQ artists",
-      "article_authors": "Rose O'Brien",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3ZX2FCUHGJEOBCOGX6ZPZM47SE.jpeg"
-    },
-    {
-      "article_link": "https://www.columbiaspectator.com/spectrum/2022/10/03/13-lgbtq-bars-and-clubs-in-new-york-city/",
-      "article_title": "13 LGBTQ bars and clubs in New York City",
-      "article_authors": "Emma Melnikov and Anuthmi Waas",
-      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NSUWRDML5VGJ7B6UJAMW6VAQS4.jpg"
-    }
-   ];
   
   export const audio_articles = [
     {
