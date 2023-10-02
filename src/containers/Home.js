@@ -47,7 +47,6 @@ const IllustrationMobile = styled.div`
         background-color: black;
         max-height: calc(100vh - 5rem);
         margin-bottom: 2rem;
-        padding-top: 5rem;
     }
 
     img {

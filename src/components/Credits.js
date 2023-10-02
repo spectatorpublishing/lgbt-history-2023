@@ -58,7 +58,7 @@ const SectionName = styled.div`
     font-size: 25px;
     margin-bottom: 1rem;
     @media only screen and (max-width: 768px){
-        font-size: 10px;
+        font-size: 0.75rem;
     }
 `;
 
@@ -69,7 +69,7 @@ const Name = styled.div`
     font-size: 25px;
     margin-bottom: 0.5rem;
     @media only screen and (max-width: 768px){
-        font-size: 10px;
+        font-size: 0.75rem;
     }
 `;
 

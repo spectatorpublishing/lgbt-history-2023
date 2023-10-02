@@ -30,7 +30,7 @@ const Title = styled.div`
     padding-bottom: 19px;
     word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 18px;
+        font-size: 2rem;
     }
 `;
 
@@ -48,7 +48,7 @@ const Body = styled.div`
     word-wrap: break-word;
     margin-bottom: 1.5rem;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size: 1rem;
         padding-left: 13px;
     }
 `;
@@ -64,7 +64,7 @@ const Editor = styled.div`
     line-height: 30.71px;
     word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size: 1rem;
         padding-left: 13px;
     }
 `;
@@ -78,7 +78,7 @@ const Position = styled.div`
     line-height: 30.71px;
     word-wrap: break-word;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size: 1rem;
         padding-left: 13px;
     }
 `;
