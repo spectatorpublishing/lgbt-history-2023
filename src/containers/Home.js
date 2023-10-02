@@ -68,10 +68,10 @@ const Home = ({ }) => {
 
     return (
         <HomeContainer>
-            <Illustration><img src={"https://s3-alpha-sig.figma.com/img/1936/4761/40b7ec279ee0ed39defdf5cc1b4e1902?Expires=1696809600&Signature=IWA0U0rpgBGvGpeo2ekCZKyvO-Vuotmm-oyz0SbVGEiBA28SGVW8iUA3DQtEEB~yWlominaCHdP4tdZYNV9Zbj5ufF3YqdSuLBVKHCSIiRhr~lPFag3KKc9RT5b1rTgWwreXvTN7arhNTyup~9Ee2HVawj1ieCWmAq~ripf-S2nCiNLgUzp~Zz47Os99dKPQgeHDnR7FOvHn5GrcoFy784BGruETR4AOccycX140fl~6VvdmYyYGPoJJahYRZTSy2IkYcsIlH8O~Ejlnp2NNMPJs~ICz~LxzsdJiRdONXG~~lalII4wKnA4CXjjanSalzo7koEhvOdp5dfski2a7NQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}></img></Illustration>
+            <Illustration><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZPAXPX6KOVCT7MCETZW4UXG7UE.png"}></img></Illustration>
             <NavBar handleClick={handleClick} />
             <MobileNavBar handleClick={handleClick} />
-            <IllustrationMobile><img src={"https://s3-alpha-sig.figma.com/img/e27d/b0b0/626287094275df5b3b251fc6f25de8e5?Expires=1696809600&Signature=mrmTpjfy-aC5bXJLnZxsdJ3X-yOsWTySp67q4hGkjXvoBX7iEiKZq0nfH-TuZH8Xsf6RE~f4i4W8M~xkMUqwZruW4OLZXivfn646Mok~wB6EN7IWQE6X923dk58WMf0-L4nPjNmIcKhihd7Bad~5mDs~7UWX4pFFxnkpFj5QSS7Ae0N~ZhT7Nvb41jW70KJSIawf1mTYNZY0XzjIo3ZJBS6kORAx7WY3Wh-fdegtOkr2a-XdqrrEgyyMdU4vozrk8W2k5furDMDFMyzF9fyzo6n7-WWJvgBN3H37i2m66g~r9nUQ~oMSGxFRV~3auyVbEntZuiGKNtT-0qIDDqvAGQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}></img></IllustrationMobile>
+            <IllustrationMobile><img src={"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IMVGS2USGVGUHAINKQOET6H6SE.png"}></img></IllustrationMobile>
             <LetterEditor />
             <div ref={rainbowRef}>
                 <Rainbow currentOpen={id} setCurrentOpen={setId} />
